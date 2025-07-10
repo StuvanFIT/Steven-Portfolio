@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "prepare": "husky",
     "format": "prettier --write .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "lint-staged": "lint-staged"
   },
   "dependencies": {
     "react": "^19.1.0",
