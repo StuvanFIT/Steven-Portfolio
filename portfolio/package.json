@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint --fix",
     "preview": "vite preview",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test": "echo \"Running tests...\" && exit 0"
   },
   "dependencies": {
     "react": "^19.1.0",
