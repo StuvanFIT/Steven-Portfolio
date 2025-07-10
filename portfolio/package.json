@@ -8,7 +8,6 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "prettier:format": "prettier --check . || prettier --write .",
     "prepare": "husky",
     "format": "prettier --write .",
     "lint:fix": "eslint . --fix"
@@ -50,6 +49,8 @@
       "npm run lint:fix",
       "npm run format"
     ],
-    "*.js": "eslint --cache --fix"
+    "*.{css,md,json}": [
+      "npm run format"
+    ]
   }
 }
