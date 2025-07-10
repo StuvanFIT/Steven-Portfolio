@@ -1,4 +1,5 @@
-set -e
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
 
-npm run prettier:format || true
-npm run lint
+cd portfolio
+npm run lint:fix
