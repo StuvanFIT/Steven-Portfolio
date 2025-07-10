@@ -1,5 +1,5 @@
 {
-  "name": "my-react-app",
+  "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,9 +9,6 @@
     "lint": "eslint --fix",
     "preview": "vite preview",
     "prepare": "husky"
-  },
-  "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
   },
   "dependencies": {
     "react": "^19.1.0",
