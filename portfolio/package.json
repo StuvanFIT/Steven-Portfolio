@@ -10,8 +10,7 @@
     "preview": "vite preview",
     "prepare": "husky",
     "format": "prettier --write .",
-    "lint:fix": "eslint . --fix",
-    "prettier:format": "prettier --check . || prettier --write ."
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "react": "^19.1.0",
@@ -38,7 +37,7 @@
     "eslint-plugin-unicorn": "^59.0.1",
     "eslint-plugin-unused-imports": "^4.1.4",
     "globals": "^16.3.0",
-    "husky": "^9.1.7",
+    "husky": "^4.3.8",
     "lint-staged": "^16.1.2",
     "prettier": "^3.6.2",
     "typescript": "~5.8.3",
