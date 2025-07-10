@@ -8,10 +8,10 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "prettier:format": "prettier --check . || prettier --write .",
     "prepare": "husky",
     "format": "prettier --write .",
-    "lint:fix": "eslint . --fix",
-    "precommit": "lint-staged"
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "react": "^19.1.0",
@@ -49,6 +49,7 @@
     "*.{js,jsx,ts,tsx}": [
       "npm run lint:fix",
       "npm run format"
-    ]
+    ],
+    "*.js": "eslint --cache --fix"
   }
 }

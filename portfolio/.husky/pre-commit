@@ -1,5 +1,4 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
+set -e
 
-echo "✅ Husky pre-commit hook triggered!"
-npx lint-staged
+npm run prettier:format || true
+npm run lint
