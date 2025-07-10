@@ -1,1 +1,4 @@
-npm run lint-staged
+set -e
+
+npm run prettier:format || true
+npm run lint
