@@ -48,9 +48,7 @@
     "*.{js,jsx,ts,tsx}": [
       "npm run lint:fix",
       "npm run format"
-    ],
-    "*.{css,md,json}": [
-      "npm run format"
     ]
   }
+
 }
