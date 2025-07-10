@@ -1,1 +1,5 @@
-npm run lint-staged
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "✅ Husky pre-commit hook triggered!"
+npx lint-staged
