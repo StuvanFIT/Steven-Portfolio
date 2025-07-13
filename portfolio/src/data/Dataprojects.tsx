@@ -8,18 +8,18 @@ const projects = [
       'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop',
     tags: ['React', 'Meteor JS', 'JavaScript', 'TailWind CSS', 'MongoDB'],
     demoUrl: '#',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/Monash-FIT3170/2025W2-Skilltree',
   },
   {
     id: 'blockchain-project',
     title: 'BlockchainEdu',
     description:
-      'BlockchainEdu is a comprehensive, interactive web application designed to help users learn about blockchain technology and cryptocurrency through engaging, easy-to-understand content',
+      'A web application designed to help users learn about blockchain technology and cryptocurrency!',
     image:
       'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop',
     tags: ['React', 'TypeScript', 'TailWind CSS'],
-    demoUrl: '#',
-    githubUrl: '#',
+    demoUrl: 'https://blockchaineducation.netlify.app/',
+    githubUrl: 'https://github.com/StuvanFIT/Blockchain-Network-Educational-Tool',
   },
   {
     id: 'santorini-project',
@@ -40,7 +40,7 @@ const projects = [
       'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop',
     tags: ['Javascript', 'HTML', 'CSS'],
     demoUrl: '#',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/StuvanFIT/Scentica',
   },
   {
     id: 'pacman-project',
@@ -51,7 +51,7 @@ const projects = [
       'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop',
     tags: ['Python'],
     demoUrl: '#',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/StuvanFIT/Artificial-Intelligence-Pacman-Game',
   },
   {
     id: 'agile-scrum-project',
@@ -62,7 +62,7 @@ const projects = [
       'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop',
     tags: ['Javascript', 'HTML', 'CSS'],
     demoUrl: '#',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/StuvanFIT/Agile-Scrum-Project-Management-Tool',
   },
 ]
 
