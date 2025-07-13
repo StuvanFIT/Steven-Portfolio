@@ -1,24 +1,22 @@
-import { ExternalLink, Github } from 'lucide-react'
+import { ExternalLink } from 'lucide-react'
+import { useState } from 'react'
+import { FaGithub } from 'react-icons/fa'
 
 import { projects } from '../data/Dataprojects'
-import { FaGithub } from 'react-icons/fa'
-import { useState } from 'react'
 
 const Projects = () => {
+  const [hoveredProject, setHoveredProject] = useState<string | null>(null)
 
-  const [hoveredProject, setHoveredProject] = useState<string | null>(null);
-
-  const handleProjectHover = (projectId:string) => {
-    setHoveredProject(projectId);
+  const handleProjectHover = (projectId: string) => {
+    setHoveredProject(projectId)
   }
 
   const handleProjectLeave = () => {
-    setHoveredProject(null);
+    setHoveredProject(null)
   }
 
-
   return (
-    <section id="projects" className="py-20 px-6 bg-gray-900/50 relative">
+    <section id="projects" className="py-20 px-6  relative">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
           Featured{' '}
@@ -31,9 +29,8 @@ const Projects = () => {
           {projects.map((project) => (
             <div
               key={project.id}
-              onMouseEnter={()=> handleProjectHover(project.id)}
+              onMouseEnter={() => handleProjectHover(project.id)}
               onMouseLeave={() => handleProjectLeave()}
-
               className="bg-gray-800/50 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-purple-500/50 transition-all duration-300 group"
             >
               {/* Fixed height image section */}
@@ -46,23 +43,22 @@ const Projects = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
               </div>
 
-               {/* Content section with flexbox layout */}
+              {/* Content section with flexbox layout */}
               <div className="p-6 flex flex-col flex-grow">
                 <h3 className="h-8 flex items-start mb-3">
-                  <div className='text-xl font-bold text-white line-clamp-1'>
+                  <div className="text-xl font-bold text-white line-clamp-1">
                     {project.title}
                   </div>
                 </h3>
 
                 {/* Description section - fixed height with line clamping */}
-                <div className='h-20 mb-4 flex items-start'>
+                <div className="h-20 mb-4 flex items-start">
                   <p className="text-gray-300 mb-4 leading-relaxed line-clamp-3">
                     {project.description}
                   </p>
                 </div>
 
-
-                <div className='h-16 mb-6 flex items-start'>
+                <div className="h-16 mb-6 flex items-start">
                   <div className="flex flex-wrap gap-2">
                     {project.tags.map((tag, i) => (
                       <span
@@ -75,13 +71,11 @@ const Projects = () => {
                   </div>
                 </div>
 
-
-
                 <div className="h-12 relative overflow-hidden mt-auto">
-                  <div 
+                  <div
                     className={`absolute inset-x-0 bottom-0 flex gap-4 transition-transform duration-300 ease-out ${
-                      hoveredProject === project.id 
-                        ? 'translate-y-0' 
+                      hoveredProject === project.id
+                        ? 'translate-y-0'
                         : 'translate-y-full'
                     }`}
                   >
@@ -101,9 +95,6 @@ const Projects = () => {
                     </button>
                   </div>
                 </div>
-
-
-
               </div>
             </div>
           ))}

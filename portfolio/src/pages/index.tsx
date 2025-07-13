@@ -1,4 +1,5 @@
 import About from '../components/About'
+import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import Profile from '../components/Profile'
 import Projects from '../components/Projects'
@@ -11,6 +12,7 @@ function Home() {
       <About />
       <Skills />
       <Projects />
+      <Contact />
       <Footer />
     </div>
   )
