@@ -19,7 +19,8 @@ const projects = [
       'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop',
     tags: ['React', 'TypeScript', 'TailWind CSS'],
     demoUrl: 'https://blockchaineducation.netlify.app/',
-    githubUrl: 'https://github.com/StuvanFIT/Blockchain-Network-Educational-Tool',
+    githubUrl:
+      'https://github.com/StuvanFIT/Blockchain-Network-Educational-Tool',
   },
   {
     id: 'santorini-project',
@@ -51,7 +52,8 @@ const projects = [
       'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop',
     tags: ['Python'],
     demoUrl: '#',
-    githubUrl: 'https://github.com/StuvanFIT/Artificial-Intelligence-Pacman-Game',
+    githubUrl:
+      'https://github.com/StuvanFIT/Artificial-Intelligence-Pacman-Game',
   },
   {
     id: 'agile-scrum-project',
@@ -62,7 +64,8 @@ const projects = [
       'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop',
     tags: ['Javascript', 'HTML', 'CSS'],
     demoUrl: '#',
-    githubUrl: 'https://github.com/StuvanFIT/Agile-Scrum-Project-Management-Tool',
+    githubUrl:
+      'https://github.com/StuvanFIT/Agile-Scrum-Project-Management-Tool',
   },
 ]
 
