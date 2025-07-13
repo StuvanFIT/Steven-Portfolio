@@ -4,7 +4,7 @@ import { LiaLinkedinIn } from 'react-icons/lia'
 
 const Contact = () => {
   return (
-    <section id="contacts" className="py-20 px-6 relative">
+    <section id="contact" className="py-20 px-6 relative">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-8">

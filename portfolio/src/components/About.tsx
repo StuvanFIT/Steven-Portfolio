@@ -2,7 +2,7 @@ import { Award, Code, Globe } from 'lucide-react'
 
 const About = () => {
   return (
-    <section id="About" className="py-20 px-6 relative">
+    <section id="about" className="py-20 px-6 relative">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
           About{' '}
