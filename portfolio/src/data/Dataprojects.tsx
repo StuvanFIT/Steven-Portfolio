@@ -5,7 +5,7 @@ const projects = [
     description:
       'A web application that allows people to join communities, enhance and certify their skills!',
     image:
-      'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop',
+      '/src/assets/skilltree.svg',
     tags: ['React', 'Meteor JS', 'JavaScript', 'TailWind CSS', 'MongoDB'],
     demoUrl: '#',
     githubUrl: 'https://github.com/Monash-FIT3170/2025W2-Skilltree',
@@ -16,7 +16,7 @@ const projects = [
     description:
       'A web application designed to help users learn about blockchain technology and cryptocurrency!',
     image:
-      'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop',
+      '/src/assets/blockchain.svg',
     tags: ['React', 'TypeScript', 'TailWind CSS'],
     demoUrl: 'https://blockchaineducation.netlify.app/',
     githubUrl:
@@ -28,17 +28,17 @@ const projects = [
     description:
       'A pure-strategy game where you play as a youthful Greek God or Goddess competing to best aid the islands citizens.',
     image:
-      'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop',
+      '/src/assets/santorini.webp',
     tags: ['Java', 'Java Swing'],
     demoUrl: '#',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/StuvanFIT/Santorini-Board-Game',
   },
   {
     id: 'scentica-project',
     title: 'Scentica',
     description: 'An E-commerce fragrance service',
     image:
-      'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop',
+      '/src/assets/scentica.svg',
     tags: ['Javascript', 'HTML', 'CSS'],
     demoUrl: '#',
     githubUrl: 'https://github.com/StuvanFIT/Scentica',
@@ -49,7 +49,7 @@ const projects = [
     description:
       'An automated Pacman agent that plays the game intelligently, using search algorithms and reinforcement learning!',
     image:
-      'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop',
+      '/src/assets/pacman.webp',
     tags: ['Python'],
     demoUrl: '#',
     githubUrl:
@@ -61,7 +61,7 @@ const projects = [
     description:
       'This project managment tool is used to support start up companies in helping them run projects smoothly, This involves sprint, product backlog and team management!',
     image:
-      'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop',
+      '/src/assets/agile.webp',
     tags: ['Javascript', 'HTML', 'CSS'],
     demoUrl: '#',
     githubUrl:
