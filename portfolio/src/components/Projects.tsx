@@ -79,13 +79,16 @@ const Projects = () => {
                         : 'translate-y-full'
                     }`}
                   >
-                    <button
-                      onClick={() => window.open(project.demoUrl)}
-                      className="flex items-center gap-2 px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-500 transition-colors duration-200"
-                    >
-                      <ExternalLink className="w-4 h-4" />
-                      Live Demo
-                    </button>
+                    {project.demoUrl && (
+                      <button
+                        onClick={() => window.open(project.demoUrl)}
+                        className="flex items-center gap-2 px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-500 transition-colors duration-200"
+                      >
+                        <ExternalLink className="w-4 h-4" />
+                        Live Demo
+                      </button>
+                    )}
+
                     <button
                       onClick={() => window.open(project.githubUrl)}
                       className="flex items-center gap-2 px-4 py-2 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition-colors duration-200"
