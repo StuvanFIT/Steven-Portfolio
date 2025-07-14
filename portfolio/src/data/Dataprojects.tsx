@@ -7,7 +7,7 @@ const projects = [
     image:
       '/src/assets/skilltree.svg',
     tags: ['React', 'Meteor JS', 'JavaScript', 'TailWind CSS', 'MongoDB'],
-    demoUrl: '#',
+    demoUrl: '',
     githubUrl: 'https://github.com/Monash-FIT3170/2025W2-Skilltree',
   },
   {
@@ -30,18 +30,8 @@ const projects = [
     image:
       '/src/assets/santorini.webp',
     tags: ['Java', 'Java Swing'],
-    demoUrl: '#',
+    demoUrl: '',
     githubUrl: 'https://github.com/StuvanFIT/Santorini-Board-Game',
-  },
-  {
-    id: 'scentica-project',
-    title: 'Scentica',
-    description: 'An E-commerce fragrance service',
-    image:
-      '/src/assets/scentica.svg',
-    tags: ['Javascript', 'HTML', 'CSS'],
-    demoUrl: '#',
-    githubUrl: 'https://github.com/StuvanFIT/Scentica',
   },
   {
     id: 'pacman-project',
@@ -51,7 +41,7 @@ const projects = [
     image:
       '/src/assets/pacman.webp',
     tags: ['Python'],
-    demoUrl: '#',
+    demoUrl: '',
     githubUrl:
       'https://github.com/StuvanFIT/Artificial-Intelligence-Pacman-Game',
   },
@@ -62,11 +52,22 @@ const projects = [
       'This project managment tool is used to support start up companies in helping them run projects smoothly, This involves sprint, product backlog and team management!',
     image:
       '/src/assets/agile.webp',
-    tags: ['Javascript', 'HTML', 'CSS'],
-    demoUrl: '#',
+    tags: ['Javascript', 'HTML', 'CSS', 'FireBase'],
+    demoUrl: 'https://agile-scrum-project-management-tool-five.vercel.app/',
     githubUrl:
       'https://github.com/StuvanFIT/Agile-Scrum-Project-Management-Tool',
   },
+  {
+    id: 'scentica-project',
+    title: 'Scentica',
+    description: 'An E-commerce fragrance service',
+    image:
+      '/src/assets/scentica.svg',
+    tags: ['Javascript', 'HTML', 'CSS', 'FireBase'],
+    demoUrl: '',
+    githubUrl: 'https://github.com/StuvanFIT/Scentica',
+  },
+
 ]
 
 export { projects }
