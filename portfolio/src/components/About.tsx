@@ -13,19 +13,20 @@ const About = () => {
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <p className="text-lg text-gray-300 leading-relaxed">
-              I'm a passionate full-stack developer with over 4 years of
-              experience creating innovative web solutions. I specialize in
-              building scalable applications using modern technologies like
-              React, Next.js, and Node.js.
-            </p>
+          <p className="text-lg text-gray-300 leading-relaxed">
+            I'm a passionate software developer driven by the belief that code should 
+            serve as a tool to help people and communities thrive. With a foundation in 
+            full-stack development, I specialise in creating meaningful digital solutions 
+            using modern technologies like React, Next.js, and TypeScript.
+          </p>
 
-            <p className="text-lg text-gray-300 leading-relaxed">
-              My journey in web development started with a curiosity about how
-              things work on the internet. Today, I help businesses transform
-              their ideas into digital realities, focusing on user experience
-              and performance optimization.
-            </p>
+          <p className="text-lg text-gray-300 leading-relaxed">
+            My journey began with a simple desire to help others and provide valuable 
+            consultation to businesses seeking digital transformation. Today, I focus on 
+            translating innovative business ideas into powerful digital realities, 
+            ensuring every line of code contributes to helping businesses succeed 
+            and make a positive impact in their communities.
+          </p>
 
             <div className="flex flex-wrap gap-4 mt-8">
               <div className="flex items-center gap-2 text-purple-400">
