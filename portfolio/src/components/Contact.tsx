@@ -72,7 +72,7 @@ const Contact = () => {
             {/*Download my resume */}
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="/public/resume/StevenKaingCV.pdf"
+                href="/StevenKaingCV.pdf"
                 download
                 className="flex items-center justify-center gap-3 px-6 py-3 bg-gray-700 text-white rounded-xl hover:bg-gray-600 transition-colors duration-200 font-medium"
               >
