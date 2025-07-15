@@ -3,8 +3,8 @@
 A modern and responsive developer portfolio built with React and TypeScript. This project showcases my projects, skills, and contact information.
 ## 🚀 Tech Stack
 
-- ⚛️ **React** – UI Library
-- 🟦 **TypeScript** – Static typing for better development experience
+- ⚛️ **React**
+- 🟦 **TypeScript**
 - 🧹 **ESLint** – Code linting for consistent code quality
 - 🧼 **Prettier** – Code formatting for clean and readable code
 - 🐶 **Husky** – Git hooks for enforcing code standards before commits
