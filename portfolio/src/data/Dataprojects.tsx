@@ -4,6 +4,7 @@ import santoriniImage from '../assets/santorini.webp';
 import pacmanImage from '../assets/pacman.webp';
 import agileImage from '../assets/agile.webp';
 import scenticaImage from '../assets/scentica.svg';
+import lstmStockPredictImage from '../assets/lstm-stock.svg'
 
 const projects = [
   {
@@ -38,11 +39,22 @@ const projects = [
     githubUrl: 'https://github.com/StuvanFIT/Santorini-Board-Game',
   },
   {
+    id: 'lstm-stock-prediction-project',
+    title: 'Stock Market Predictions with LSTM in Python',
+    description:
+      'Using time-series model called Long Short-Term Memory to predict stock market movements.',
+    image:pacmanImage,
+    tags: ['Jupyter Notebook','PyTorch','Python'],
+    demoUrl: '',
+    githubUrl:
+      'https://github.com/StuvanFIT/LSTM-Stock-Market-Prediction',
+  },
+  {
     id: 'pacman-project',
     title: 'AI Pacman Game',
     description:
       'An automated Pacman agent that plays the game intelligently, using search algorithms and reinforcement learning!',
-    image:pacmanImage,
+    image:lstmStockPredictImage,
     tags: ['Python'],
     demoUrl: '',
     githubUrl:
