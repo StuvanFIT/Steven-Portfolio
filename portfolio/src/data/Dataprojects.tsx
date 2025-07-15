@@ -43,7 +43,7 @@ const projects = [
     title: 'Stock Market Predictions with LSTM in Python',
     description:
       'Using time-series model called Long Short-Term Memory to predict stock market movements.',
-    image:pacmanImage,
+    image:lstmStockPredictImage,
     tags: ['Jupyter Notebook','PyTorch','Python'],
     demoUrl: '',
     githubUrl:
@@ -54,7 +54,7 @@ const projects = [
     title: 'AI Pacman Game',
     description:
       'An automated Pacman agent that plays the game intelligently, using search algorithms and reinforcement learning!',
-    image:lstmStockPredictImage,
+    image:pacmanImage,
     tags: ['Python'],
     demoUrl: '',
     githubUrl:
