@@ -1,16 +1,16 @@
 import { ExternalLink } from 'lucide-react'
 import { useState } from 'react'
 import { FaGithub } from 'react-icons/fa'
-
-import { projects } from '../data/Dataprojects'
 import { useNavigate } from 'react-router-dom'
 
+import { projects } from '../data/Dataprojects'
+
 const Projects = () => {
-  const navigate = useNavigate();
+  const navigate = useNavigate()
   const [hoveredProject, setHoveredProject] = useState<string | null>(null)
 
-  const handleProjectNavigation = (projectId:string) => {
-    navigate(`/my-projects/${projectId}`);
+  const handleProjectNavigation = (projectId: string) => {
+    navigate(`/my-projects/${projectId}`)
   }
 
   const handleProjectHover = (projectId: string) => {
@@ -35,7 +35,7 @@ const Projects = () => {
           {projects.map((project) => (
             <div
               key={project.id}
-              onClick={() =>handleProjectNavigation(project.id)}
+              onClick={() => handleProjectNavigation(project.id)}
               onMouseEnter={() => handleProjectHover(project.id)}
               onMouseLeave={() => handleProjectLeave()}
               className="bg-gray-800/50 backdrop-blur-sm rounded-2xl overflow-hidden border border-gray-700/50 hover:border-purple-500/50 transition-all duration-300 group cursor-pointer"
@@ -89,8 +89,9 @@ const Projects = () => {
                     {project.demoUrl && (
                       <button
                         onClick={(e) => {
-                          e.stopPropagation();
-                          window.open(project.demoUrl);}}
+                          e.stopPropagation()
+                          window.open(project.demoUrl)
+                        }}
                         className="flex items-center gap-2 px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-500 transition-colors duration-200"
                       >
                         <ExternalLink className="w-4 h-4" />
@@ -100,8 +101,9 @@ const Projects = () => {
 
                     <button
                       onClick={(e) => {
-                        e.stopPropagation();
-                        window.open(project.githubUrl)}}
+                        e.stopPropagation()
+                        window.open(project.githubUrl)
+                      }}
                       className="flex items-center gap-2 px-4 py-2 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition-colors duration-200"
                     >
                       <FaGithub className="w-4 h-4" />

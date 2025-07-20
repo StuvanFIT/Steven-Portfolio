@@ -1,46 +1,38 @@
-import Swal from 'sweetalert2';
-
-
 import { Download, ExternalLink, Mail, MapPin, Phone, Send } from 'lucide-react'
 import { FaGithub, FaInstagram } from 'react-icons/fa'
 import { LiaLinkedinIn } from 'react-icons/lia'
-
-
+import Swal from 'sweetalert2'
 
 const Contact = () => {
-
   const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
+    event.preventDefault()
 
+    const form = event.currentTarget
+    const formData = new FormData(form)
+    formData.append('access_key', '22e9a23c-dd52-4f97-a73d-a1dee68f0d3b')
 
-    const form = event.currentTarget;
-    const formData = new FormData(form);
-    formData.append("access_key", "22e9a23c-dd52-4f97-a73d-a1dee68f0d3b");
+    const response = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      body: formData,
+    })
 
-    console.log(form)
-
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData
-    });
-
-    const data = await response.json();
+    const data = await response.json()
 
     if (data.success) {
-      form.reset();
+      form.reset()
       Swal.fire({
-        title: "Success!",
-        text: "Message has been sent! I will get back to you shortly!",
-        icon: "success"
-      });
+        title: 'Success!',
+        text: 'Message has been sent! I will get back to you shortly!',
+        icon: 'success',
+      })
     } else {
       Swal.fire({
-        title: "Oops...",
-        text: "ERROR: Message failed to send! Please try again!",
-        icon: "error"
-      });
+        title: 'Oops...',
+        text: 'ERROR: Message failed to send! Please try again!',
+        icon: 'error',
+      })
     }
-  };
+  }
 
   return (
     <section id="contact" className="py-20 px-6 relative">
@@ -176,7 +168,6 @@ const Contact = () => {
           </div>
         </div>
 
-
         <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-700/50">
           <h3 className="text-2xl font-bold text-white mb-6">
             Send me a{' '}
@@ -185,9 +176,12 @@ const Contact = () => {
             </span>
           </h3>
           <div>
-            <form onSubmit={onSubmit} className='space-y-6'>
+            <form onSubmit={onSubmit} className="space-y-6">
               <div>
-                <label htmlFor="name" className="block text-gray-300 text-sm font-medium mb-2">
+                <label
+                  htmlFor="name"
+                  className="block text-gray-300 text-sm font-medium mb-2"
+                >
                   Your Name or Business
                 </label>
                 <input
@@ -201,7 +195,10 @@ const Contact = () => {
               </div>
 
               <div>
-                <label htmlFor="email" className="block text-gray-300 text-sm font-medium mb-2">
+                <label
+                  htmlFor="email"
+                  className="block text-gray-300 text-sm font-medium mb-2"
+                >
                   Your Email Address
                 </label>
                 <input
@@ -215,7 +212,10 @@ const Contact = () => {
               </div>
 
               <div>
-                <label htmlFor="message" className="block text-gray-300 text-sm font-medium mb-2">
+                <label
+                  htmlFor="message"
+                  className="block text-gray-300 text-sm font-medium mb-2"
+                >
                   Your Message
                 </label>
                 <textarea

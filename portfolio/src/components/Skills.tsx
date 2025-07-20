@@ -2,7 +2,6 @@ import { Dataskills } from '../data/Dataskills'
 
 const Skills = () => {
   return (
-    
     <section id="skills" className="py-20 px-6 relative">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">

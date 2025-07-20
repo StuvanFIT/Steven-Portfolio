@@ -1,11 +1,11 @@
-import skilltreeImage from '../assets/skilltree.svg';
-import blockchainImage from '../assets/blockchain.svg';
-import santoriniImage from '../assets/santorini.webp';
-import pacmanImage from '../assets/pacman.webp';
-import agileImage from '../assets/agile.webp';
-import scenticaImage from '../assets/scentica.svg';
+import agileImage from '../assets/agile.webp'
+import blockchainImage from '../assets/blockchain.svg'
 import lstmStockPredictImage from '../assets/lstm-stock.svg'
-import { ProjectAboutDefault } from '../pages/projects/ProjectAboutDefault';
+import pacmanImage from '../assets/pacman.webp'
+import santoriniImage from '../assets/santorini.webp'
+import scenticaImage from '../assets/scentica.svg'
+import skilltreeImage from '../assets/skilltree.svg'
+import { ProjectAboutDefault } from '../pages/projects/ProjectAboutDefault'
 
 const projects = [
   {
@@ -13,58 +13,57 @@ const projects = [
     title: 'SkillTree',
     description:
       'A web application that allows people to join communities, enhance and certify their skills!',
-    image:skilltreeImage,
+    image: skilltreeImage,
     tags: ['React', 'Meteor JS', 'JavaScript', 'TailWind CSS', 'MongoDB'],
     demoUrl: '',
     githubUrl: 'https://github.com/Monash-FIT3170/2025W2-Skilltree',
-    about: <ProjectAboutDefault />
+    about: <ProjectAboutDefault />,
   },
   {
     id: 'blockchain-project',
     title: 'BlockchainEdu',
     description:
       'A web application designed to help users learn about blockchain technology and cryptocurrency!',
-    image:blockchainImage,
+    image: blockchainImage,
     tags: ['React', 'TypeScript', 'TailWind CSS'],
     demoUrl: 'https://blockchaineducation.netlify.app/',
     githubUrl:
       'https://github.com/StuvanFIT/Blockchain-Network-Educational-Tool',
-    about: <ProjectAboutDefault />
+    about: <ProjectAboutDefault />,
   },
   {
     id: 'santorini-project',
     title: 'Santorini Board Game',
     description:
       'A pure-strategy game where you play as a youthful Greek God or Goddess competing to best aid the islands citizens.',
-    image:santoriniImage,
+    image: santoriniImage,
     tags: ['Java', 'Java Swing'],
     demoUrl: '',
     githubUrl: 'https://github.com/StuvanFIT/Santorini-Board-Game',
-    about: <ProjectAboutDefault />
+    about: <ProjectAboutDefault />,
   },
   {
     id: 'lstm-stock-prediction-project',
     title: 'Stock Market Predictions with LSTM in Python',
     description:
       'Using time-series model called Long Short-Term Memory to predict stock market movements.',
-    image:lstmStockPredictImage,
-    tags: ['Jupyter Notebook','PyTorch','Python'],
+    image: lstmStockPredictImage,
+    tags: ['Jupyter Notebook', 'PyTorch', 'Python'],
     demoUrl: '',
-    githubUrl:
-      'https://github.com/StuvanFIT/LSTM-Stock-Market-Prediction',
-    about: <ProjectAboutDefault />
+    githubUrl: 'https://github.com/StuvanFIT/LSTM-Stock-Market-Prediction',
+    about: <ProjectAboutDefault />,
   },
   {
     id: 'pacman-project',
     title: 'AI Pacman Game',
     description:
       'An automated Pacman agent that plays the game intelligently, using search algorithms and reinforcement learning!',
-    image:pacmanImage,
+    image: pacmanImage,
     tags: ['Python'],
     demoUrl: '',
     githubUrl:
       'https://github.com/StuvanFIT/Artificial-Intelligence-Pacman-Game',
-    about: <ProjectAboutDefault />
+    about: <ProjectAboutDefault />,
   },
   {
     id: 'agile-scrum-project',
@@ -76,7 +75,7 @@ const projects = [
     demoUrl: 'https://agile-scrum-project-management-tool-five.vercel.app/',
     githubUrl:
       'https://github.com/StuvanFIT/Agile-Scrum-Project-Management-Tool',
-    about: <ProjectAboutDefault />
+    about: <ProjectAboutDefault />,
   },
   {
     id: 'scentica-project',
@@ -86,9 +85,8 @@ const projects = [
     tags: ['Javascript', 'HTML', 'CSS', 'FireBase'],
     demoUrl: '',
     githubUrl: 'https://github.com/StuvanFIT/Scentica',
-    about: <ProjectAboutDefault />
+    about: <ProjectAboutDefault />,
   },
-
 ]
 
 export { projects }

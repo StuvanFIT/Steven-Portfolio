@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
 const Header = () => {
-  const navigate = useNavigate();
+  const navigate = useNavigate()
   const [activeSection, setActiveSection] = useState<string>('hero')
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
@@ -49,13 +49,16 @@ const Header = () => {
 
   const handleHomeNavigation = () => {
     navigate('/')
-  };
+  }
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-black/50 border-b border-gray-800/50 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <button onClick={() => handleHomeNavigation()} className="text-xl font-bold cursor-pointer">
+          <button
+            onClick={() => handleHomeNavigation()}
+            className="text-xl font-bold cursor-pointer"
+          >
             <span className="bg-gradient-to-r from-purple-400 to-indigo-500 bg-clip-text text-transparent">
               console.log(Steven Kaing)
             </span>
