@@ -5,6 +5,7 @@ import pacmanImage from '../assets/pacman.webp';
 import agileImage from '../assets/agile.webp';
 import scenticaImage from '../assets/scentica.svg';
 import lstmStockPredictImage from '../assets/lstm-stock.svg'
+import { ProjectAboutDefault } from '../pages/projects/ProjectAboutDefault';
 
 const projects = [
   {
@@ -16,6 +17,7 @@ const projects = [
     tags: ['React', 'Meteor JS', 'JavaScript', 'TailWind CSS', 'MongoDB'],
     demoUrl: '',
     githubUrl: 'https://github.com/Monash-FIT3170/2025W2-Skilltree',
+    about: <ProjectAboutDefault />
   },
   {
     id: 'blockchain-project',
@@ -27,6 +29,7 @@ const projects = [
     demoUrl: 'https://blockchaineducation.netlify.app/',
     githubUrl:
       'https://github.com/StuvanFIT/Blockchain-Network-Educational-Tool',
+    about: <ProjectAboutDefault />
   },
   {
     id: 'santorini-project',
@@ -37,6 +40,7 @@ const projects = [
     tags: ['Java', 'Java Swing'],
     demoUrl: '',
     githubUrl: 'https://github.com/StuvanFIT/Santorini-Board-Game',
+    about: <ProjectAboutDefault />
   },
   {
     id: 'lstm-stock-prediction-project',
@@ -48,6 +52,7 @@ const projects = [
     demoUrl: '',
     githubUrl:
       'https://github.com/StuvanFIT/LSTM-Stock-Market-Prediction',
+    about: <ProjectAboutDefault />
   },
   {
     id: 'pacman-project',
@@ -59,6 +64,7 @@ const projects = [
     demoUrl: '',
     githubUrl:
       'https://github.com/StuvanFIT/Artificial-Intelligence-Pacman-Game',
+    about: <ProjectAboutDefault />
   },
   {
     id: 'agile-scrum-project',
@@ -70,6 +76,7 @@ const projects = [
     demoUrl: 'https://agile-scrum-project-management-tool-five.vercel.app/',
     githubUrl:
       'https://github.com/StuvanFIT/Agile-Scrum-Project-Management-Tool',
+    about: <ProjectAboutDefault />
   },
   {
     id: 'scentica-project',
@@ -79,6 +86,7 @@ const projects = [
     tags: ['Javascript', 'HTML', 'CSS', 'FireBase'],
     demoUrl: '',
     githubUrl: 'https://github.com/StuvanFIT/Scentica',
+    about: <ProjectAboutDefault />
   },
 
 ]
