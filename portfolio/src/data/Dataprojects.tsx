@@ -5,6 +5,7 @@ import pacmanImage from '../assets/pacman.webp'
 import santoriniImage from '../assets/santorini.webp'
 import scenticaImage from '../assets/scentica.svg'
 import skilltreeImage from '../assets/skilltree.svg'
+import dockerImage from '../assets/docker-blue.svg'
 import { ProjectAboutDefault } from '../pages/projects/ProjectAboutDefault'
 
 const projects = [
@@ -41,6 +42,18 @@ const projects = [
     demoUrl: '',
     githubUrl: 'https://github.com/StuvanFIT/Santorini-Board-Game',
     about: <ProjectAboutDefault />,
+  },
+  {
+    id: 'learning-docker-app-project',
+    title: 'Docker Made Simple',
+    description:
+      'Learning and exploring key concepts in Docker!',
+    image: dockerImage,
+    tags: ['React', 'Typescript', 'Docker', 'Microservices'],
+    demoUrl: 'https://docker-made-simple.vercel.app/',
+    githubUrl: 'https://github.com/StuvanFIT/Docker-Made-Simple',
+    about: <ProjectAboutDefault />,
+
   },
   {
     id: 'lstm-stock-prediction-project',
