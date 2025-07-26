@@ -19,6 +19,7 @@ const projects = [
     demoUrl: '',
     githubUrl: 'https://github.com/Monash-FIT3170/2025W2-Skilltree',
     about: <ProjectAboutDefault />,
+    status: 'In-Progress'
   },
   {
     id: 'blockchain-project',
@@ -31,6 +32,7 @@ const projects = [
     githubUrl:
       'https://github.com/StuvanFIT/Blockchain-Network-Educational-Tool',
     about: <ProjectAboutDefault />,
+    status: 'Completed'
   },
   {
     id: 'santorini-project',
@@ -42,6 +44,7 @@ const projects = [
     demoUrl: '',
     githubUrl: 'https://github.com/StuvanFIT/Santorini-Board-Game',
     about: <ProjectAboutDefault />,
+    status: 'Completed'
   },
   {
     id: 'learning-docker-app-project',
@@ -53,6 +56,7 @@ const projects = [
     demoUrl: 'https://docker-made-simple.vercel.app/',
     githubUrl: 'https://github.com/StuvanFIT/Docker-Made-Simple',
     about: <ProjectAboutDefault />,
+    status: 'Completed'
 
   },
   {
@@ -65,6 +69,7 @@ const projects = [
     demoUrl: '',
     githubUrl: 'https://github.com/StuvanFIT/LSTM-Stock-Market-Prediction',
     about: <ProjectAboutDefault />,
+    status: 'Completed'
   },
   {
     id: 'pacman-project',
@@ -77,6 +82,7 @@ const projects = [
     githubUrl:
       'https://github.com/StuvanFIT/Artificial-Intelligence-Pacman-Game',
     about: <ProjectAboutDefault />,
+    status: 'Completed'
   },
   {
     id: 'agile-scrum-project',
@@ -89,6 +95,7 @@ const projects = [
     githubUrl:
       'https://github.com/StuvanFIT/Agile-Scrum-Project-Management-Tool',
     about: <ProjectAboutDefault />,
+    status: 'Completed'
   },
   {
     id: 'scentica-project',
@@ -99,6 +106,7 @@ const projects = [
     demoUrl: '',
     githubUrl: 'https://github.com/StuvanFIT/Scentica',
     about: <ProjectAboutDefault />,
+    status: 'Completed'
   },
 ]
 
